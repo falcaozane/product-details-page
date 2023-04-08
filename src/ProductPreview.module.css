@@ -1,0 +1,40 @@
+.ProductPreview{
+    width: 100%;
+    position: relative;
+}
+
+.ProductPreview > img{
+    width: 100%;
+}
+
+
+.TimeData{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    font-size: 48px;
+    font-weight: 600;
+}
+.HeartBeatData{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+.HeartBeatData>i{
+    color: #d31717;
+    animation: beat 2s infinite ;
+}
+@keyframes beat {
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.5,1.5);
+    }
+}    
