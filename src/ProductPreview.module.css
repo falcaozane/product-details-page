@@ -29,6 +29,7 @@
 .HeartBeatData>i{
     color: #d31717;
     animation: beat 2s infinite ;
+    margin-top: 40px;
 }
 @keyframes beat {
     0%{
